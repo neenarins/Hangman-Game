@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <title>Meditate With Hangman</title>
+</head>
+<body background="assets/images/buddha.jpg">
+    <div class="container">
+        <div class="page-header">
+            <h1>Hangman <small>Meditation Style</small></h1>
+        </div>
+        <div class="panel panel-success" id="instructions">
+            <div class="panel-heading">
+                <h3 class="panel-title">Instructions</h3>
+            </div>
+            <div class="panel-body">
+                The purpose of Hangman is to guess the hidden word within a predetermined limit of attempts.  For this particular game, the words that will be randomly selected have a meditation theme - any words relating to self-care, peace, yoga, or meditation goes! In order to guess, begin by typing a letter on the keyboard.  After the first guess, dashed lines will appear representing the amount of letters within the given word. Should the guesseed letter be a part of the hidden word, it will appear on the screen, on one of the dashed lines. However, if the word does not contain that letter, it will be placed below the dashes in the letter or missed-guess bank.  Make sure to keep an eye on the guess counter - there's a limited amounts of guesses before the game ends!
+            </div>
+        </div>
+        <br>
+        <div id="word">
+            <h2>Can you guess this word?</h2>
+            <span id="gameArea"></span>
+        </div>
+        <br>
+        <div class="panel panel-success" id="stats">
+            <div class="panel-heading">
+                <h3 class="panel-title">Game Stats</h3>
+            </div>
+            <div class="panel-body">
+                <div>
+                    <h4><strong>Wrong Guesses: </strong></h4><span id="incorrectGuesses"></span>
+                </div>
+                <div>
+                    <h4><strong>Lives: </strong></h4><span id="lives"></span>
+                </div>
+                <div>
+                    <h4><strong>Wins: </strong></h4><span id="wins"></span>
+                </div>
+                <div>
+                    <h4><strong>Losses: </strong></h4><span id="losses"></span>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.page-header {
+	text-align: center;
+	color: white;
+}
+
+#instructions {
+	text-align: center;
+}
+.panel {
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+
+#stats {
+	width: 500px;
+	height: 250px;
+	text-align: center;
+}
+
+#word {
+	color: white;
+	text-align: center;
+}
